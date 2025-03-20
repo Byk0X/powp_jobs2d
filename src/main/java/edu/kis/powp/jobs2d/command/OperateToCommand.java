@@ -9,15 +9,8 @@ public class OperateToCommand implements DriverCommand {
     @Override
     public void execute() {
 
-    }
 
-    @Override
-    public void setPosition(int x, int y) {
 
     }
 
-    @Override
-    public void operateTo(int x, int y) {
-
-    }
 }

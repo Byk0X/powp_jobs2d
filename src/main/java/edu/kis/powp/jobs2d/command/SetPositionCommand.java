@@ -9,16 +9,7 @@ public class SetPositionCommand implements DriverCommand {
 
     @Override
     public void execute() {
-
+        driver.setPosition(x, y);
     }
 
-    @Override
-    public void setPosition(int x, int y) {
-
-    }
-
-    @Override
-    public void operateTo(int x, int y) {
-
-    }
 }
